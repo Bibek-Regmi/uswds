@@ -1,17 +1,5 @@
-/*! uswds @version */
 
-// Required
-// -------------------------------------
-@import "packages/required";
+$theme-image-path: '../img';
+$theme-font-path: '../fonts';
 
-// Global
-// -------------------------------------
-@import "packages/global";
-
-// Components
-// -------------------------------------
-@import "packages/uswds-components";
-
-// Utilities
-// -------------------------------------
-@import "packages/uswds-utilities";
+@import 'node_modules/@gsa-sam/sam-styles/src/stylesheets/sam';
